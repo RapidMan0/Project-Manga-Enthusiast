@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #0F031C;
+  background: #0f031c;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .header {
@@ -28,7 +28,6 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 10px 190px 10px 10px;
-
 }
 
 .middle_item {
@@ -49,14 +48,15 @@ a {
   color: aliceblue;
   font-size: 45px;
   margin-left: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+  text-shadow: rgb(34, 107, 107) 2px 5px;
 }
 
 .popular {
   width: 100%;
   height: 5%;
   border-radius: 190px;
-  background: #553D67;
+  background: #553d67;
   padding-top: 3px;
   color: aliceblue;
   text-align: center;
@@ -65,10 +65,9 @@ a {
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   position: relative;
   bottom: 37px;
-
 }
 
 .image .element {
@@ -119,15 +118,13 @@ a {
   z-index: 2;
 }
 
-
-
-.trending { 
+.trending {
   position: relative;
   bottom: 146px;
   width: 100%;
   height: 5%;
   border-radius: 190px;
-  background: #553D67;
+  background: #553d67;
   padding-top: 3px;
   color: aliceblue;
   text-align: center;
@@ -136,7 +133,7 @@ a {
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .image-container {
@@ -153,7 +150,7 @@ a {
 }
 
 .all {
-  display:flex;
+  display: flex;
   justify-content: space-around;
   position: relative;
   bottom: 145px;
