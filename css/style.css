@@ -34,6 +34,9 @@ a {
 .middle_item {
   margin: 0 40px 0 40px;
 }
+.nav_bar {
+  display: flex;
+}
 
 .img_header {
   width: 120px;
@@ -73,7 +76,7 @@ a {
 
 .image .element {
   position: relative;
-  width: 1920px;
+  width: 100%;
   height: 700px;
   bottom: 65px;
   object-fit: cover;
@@ -140,9 +143,9 @@ a {
 .image-container {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   position: absolute;
-  width: 1920px;
+  width: 100%;
   height: 535px;
-  bottom: 61px;
+  bottom: 75px;
   object-fit: cover;
   background-size: cover;
   background-position: center;
@@ -154,7 +157,7 @@ a {
   display: flex;
   justify-content: space-around;
   position: relative;
-  bottom: 145px;
+  bottom: 125px;
 }
 
 .photo1 {
