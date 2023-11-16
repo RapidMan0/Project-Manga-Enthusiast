@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #0f031c;
+  }
+  
+  a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .header {
+    min-height: 96px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 190px 10px 10px;
+  }
+  
+  .nav_bar {
+    display: flex;
+    margin-right: 17px;
+    padding: 10px;
+  }
+  
+  .img_header {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name {
+    color: aliceblue;
+    font-size: 45px;
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+    text-shadow: rgb(83, 0, 179) 2px 5px;
+  }
+  .photo1 {
+    width: 360px;
+    height: 470px;
+    border-radius: 15px;
+    display: flex;
+  }
