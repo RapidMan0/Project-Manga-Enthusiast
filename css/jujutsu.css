@@ -53,8 +53,17 @@
     text-shadow: rgb(83, 0, 179) 2px 5px;
   }
   .photo1 {
-    width: 360px;
-    height: 470px;
+    width: 300px;
+    height: 400px;
     border-radius: 15px;
+  }
+
+  .all {
+    position: relative;
+    left: 100px;
+    top: 10px;
+  }
+  video {
     display: flex;
+    justify-content: center;
   }
