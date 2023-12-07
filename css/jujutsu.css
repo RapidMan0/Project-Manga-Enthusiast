@@ -144,17 +144,12 @@ a {
   border-radius: 40px;
 }
 .grid2 {
-  width: 1348px;
-  height: 900px;
-  background-color: #9078cc;
   display: grid;
-  grid-template-columns: 340px 300px 340px 356px;
+  grid-template-columns: 350px 300px 340px 356px;
   grid-template-rows: 513px 513px;
+  margin-top: 3px;
 }
-.ooo {
-  font-size: 40px;
-  font-weight: 900px;
-}
+
 .photo2 {
   width: 300px;
   height: 470px;
@@ -178,6 +173,10 @@ a {
 .flex {
   display: flex;
   justify-content: center;
+  width: 1348px;
+  height: 900px;
+  background-color: #9078cc;
+  margin: auto;
 }
 .descriptchar {
   background-color: #352268;
