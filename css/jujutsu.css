@@ -64,12 +64,10 @@ a {
 }
 
 .all {
-  height: auto;
   background-color: #553d67;
   border-radius: 10px;
-  position: absolute;
-  left: 230px;
   width: 1450px;
+  margin: auto;
   margin-top: 35px;
   box-shadow: 0 4px 8px 0 rgba(0, 162, 255, 0.363), 0 6px 20px 0 rgba(0, 92, 145, 0.452);
 }
@@ -150,8 +148,8 @@ a {
   height: 900px;
   background-color: #9078cc;
   display: grid;
-  grid-template-columns: 340px 300px 340px 300px;
-  grid-template-rows: 513px;
+  grid-template-columns: 340px 300px 340px 356px;
+  grid-template-rows: 513px 513px;
 }
 .ooo {
   font-size: 40px;
