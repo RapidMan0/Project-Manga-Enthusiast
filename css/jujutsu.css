@@ -68,6 +68,7 @@ a {
   border-radius: 10px;
   width: 1450px;
   margin: auto;
+  height: auto;
   margin-top: 35px;
   box-shadow: 0 4px 8px 0 rgba(0, 162, 255, 0.363), 0 6px 20px 0 rgba(0, 92, 145, 0.452);
 }
@@ -145,9 +146,9 @@ a {
 }
 .grid2 {
   display: grid;
-  grid-template-columns: 350px 300px 340px 356px;
-  grid-template-rows: 513px 513px;
-  margin-top: 3px;
+  grid-template-columns: 351px 300px;
+  grid-template-rows: 513px 0px;
+
 }
 
 .photo2 {
@@ -166,15 +167,15 @@ a {
  border-radius: 5px;
 }
 .photo3 {
-  width: 300px;
+  width: 290px;
   height: 470px;
   border: 5px solid #333;
 }
 .flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 1348px;
-  height: 900px;
+  min-height: 550px;
   background-color: #9078cc;
   margin: auto;
 }
@@ -205,9 +206,9 @@ a {
 
 .grid3 {
   display: grid;
-  grid-template-columns: 340px 300px;
+  grid-template-columns: 340px 290px;
   margin-left: 68px;
-  grid-template-rows: 513px;
+  grid-template-rows: 513px 0px;
 }
 
 .descriptchar2 {
@@ -219,3 +220,4 @@ a {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   border: 2px solid #333;
 }
+
