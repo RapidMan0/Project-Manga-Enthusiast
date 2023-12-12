@@ -69,7 +69,6 @@ a {
   width: 1450px;
   margin: auto;
   height: auto;
-  margin-top: 35px;
   box-shadow: 0 4px 8px 0 rgba(0, 162, 255, 0.363), 0 6px 20px 0 rgba(0, 92, 145, 0.452);
 }
 .caption {
@@ -147,14 +146,14 @@ a {
 .grid2 {
   display: grid;
   grid-template-columns: 351px 300px;
-  grid-template-rows: 513px 0px;
-
+  grid-template-rows: 513px;
 }
 
 .photo2 {
   width: 300px;
   height: 470px;
   border: 5px solid #333;
+  border-radius: 4px;
 }
 
 .text-on-image {
@@ -170,6 +169,7 @@ a {
   width: 290px;
   height: 470px;
   border: 5px solid #333;
+  border-radius: 4px;
 }
 .flex {
   display: flex;
@@ -177,7 +177,9 @@ a {
   width: 1348px;
   min-height: 550px;
   background-color: #9078cc;
+  justify-items: center;
   margin: auto;
+  
 }
 .descriptchar {
   background-color: #352268;
@@ -220,4 +222,11 @@ a {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   border: 2px solid #333;
 }
-
+.govno {
+ display: flex;
+ justify-content: center;
+}
+.x {
+  width: 1450px;
+  height: 600px;
+}
