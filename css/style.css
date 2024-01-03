@@ -38,7 +38,12 @@ a {
 }
 .nav_bar {
   display: flex;
-
+  margin-left: 400px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  transition: color 0.5s ease-out 100ms;
+}
+a:hover {
+  color: #8214ff;
 }
 
 .img_header {
@@ -73,6 +78,7 @@ a {
   line-height: normal;
   text-transform: capitalize;
   font-family: "Inter", sans-serif;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
   transition: background-color 0.5s ease-out 100ms;
 }
 .trending {
@@ -90,6 +96,7 @@ a {
   text-transform: capitalize;
   font-family: "Inter", sans-serif;
   margin-top: 15px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
   transition: background-color 0.5s ease-out 100ms;
 }
 
@@ -110,7 +117,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  transition: transform 0.3s ease-in-out;
 }
+.img_sec:hover {
+  transform: scale(1.01);
+}
+
 
 .img_text {
   max-width: 360px;
@@ -155,12 +167,9 @@ a {
   
 }
 
-.nav_bar {
-  margin-left: 400px;
-}
 .photo1 {
-  width: 335px;
-  height: 440px;
+  width: 350px;
+  height: 475px;
   border-radius: 15px;
   transition: transform 0.3s ease;
 }

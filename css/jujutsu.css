@@ -176,15 +176,13 @@ a {
   display: flex;
   justify-content: space-between;
   width: 96%;
-  min-height: 550px;
   background-color: #9078cc;
-  justify-items: center;
   margin: auto;
   
 }
 .descriptchar {
   background-color: #352268;
-  overflow: auto;
+  overflow: scroll;
   font-size: 25px;
   font-family: 'Open Sans', sans-serif;
   color: rgb(255, 255, 255);
@@ -210,9 +208,8 @@ a {
 .grid3 {
   display: grid;
   grid-template-columns: 340px 290px;
-  margin-left: 68px;
   grid-template-rows: 513px 0px;
-  row-gap: 70px;
+  margin-bottom: 5%;
 }
 
 .descriptchar2 {
@@ -226,18 +223,55 @@ a {
 }
 @media screen and (max-width:1870px) {
   .grid3 { 
-    grid-template-columns: 340px 200px;
-    margin-left: 68px;
+    grid-template-columns: 275px 200px;
     grid-template-rows: 450px;
-    row-gap: 70px;
   }
   .grid2 {
     display: grid;
-    grid-template-columns: 351px 250px;
+    grid-template-columns: 275px 250px;
     grid-template-rows: 450px;
   }
   .descriptchar2 {
     font-size: 22px;
+  }
+
+}
+@media screen and (max-width:1455px) {
+  .grid3 { 
+    grid-template-columns: 250px 200px;
+    grid-template-rows: 450px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 250px 200px;
+    grid-template-rows: 450px;
+  }
+  .descriptchar2 {
+    font-size: 22px;
+  }
+  .text-on-image {
+    font-size: 20px;
+  }
+
+}
+@media screen and (max-width:1325px) {
+  .grid3 { 
+    grid-template-columns: 200px 175px;
+    grid-template-rows: 380px;
+  }
+  .text-on-image {
+    font-size: 20px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 200px 175px;
+    grid-template-rows: 350px;
+  }
+  .descriptchar2 {
+    font-size: 15px;
+  }
+  .descriptchar {
+    font-size: 15px;
   }
 
 }
@@ -257,6 +291,30 @@ a {
 
 }
 
+@media screen and (max-width:1135px) {
+  .grid3 { 
+    grid-template-columns: 175px 155px;
+    grid-template-rows: 300px;
+  }
+  .text-on-image {
+    font-size: 20px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 175px 155px;
+    grid-template-rows: 300px;
+  }
+  .descriptchar2 {
+    font-size: 15px;
+  }
+  .descriptchar {
+    font-size: 15px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+}
+
 
 @media screen and (max-width:1024px) {
   .fff {
@@ -272,6 +330,44 @@ a {
     font-size: 15px;
   }
 }
+@media screen and (max-width:921px) {
+  .grid3 { 
+    grid-template-columns: 155px 140px;
+    grid-template-rows: 270px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 155px 140px;
+    grid-template-rows: 270px;
+  }
+  .descriptchar2 {
+    font-size: 15px;
+  }
+  .descriptchar {
+    font-size: 15px;
+  }
+  @media screen and (max-width:831px) {
+    .grid3 { 
+      grid-template-columns: 145px 125px;
+      grid-template-rows: 245px;
+    }
+    .text-on-image {
+      font-size: 15px;
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: 145px 125px;
+      grid-template-rows: 245px;
+    }
+    .descriptchar2 {
+      font-size: 10px;
+    }
+    .descriptchar {
+      font-size: 10px;
+    }
 
 @media screen and (max-width:769px) {
   .fff {
@@ -285,6 +381,170 @@ a {
   }
   .about1 {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width:761px) {
+  .grid3 { 
+    grid-template-columns: 135px 115px;
+    grid-template-rows: 200px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 135px 115px;
+    grid-template-rows: 200px;
+  }
+  .descriptchar2 {
+    font-size: 10px;
+  }
+  .descriptchar {
+    font-size: 10px;
+  }
+  .text-on-image {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:699px) {
+  .grid3 { 
+    grid-template-columns: 125px 100px;
+    grid-template-rows: 165px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 125px 100px;
+    grid-template-rows: 165px;
+  }
+  .descriptchar2 {
+    font-size: 10px;
+  }
+  .descriptchar {
+    font-size: 10px;
+  }
+  .text-on-image {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:631px) {
+  .grid3 { 
+    grid-template-columns: 110px 90px;
+    grid-template-rows: 165px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 110px 90px;
+    grid-template-rows: 165px;
+  }
+  .descriptchar2 {
+    font-size: 10px;
+  }
+  .descriptchar {
+    font-size: 10px;
+  }
+  .text-on-image {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:559px) {
+  .grid3 { 
+    grid-template-columns: 90px 90px;
+    grid-template-rows: 165px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 90px 90px;
+    grid-template-rows: 165px;
+  }
+  .descriptchar2 {
+    font-size: 10px;
+  }
+  .descriptchar {
+    font-size: 10px;
+  }
+  .text-on-image {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:507px) {
+  .grid3 { 
+    grid-template-columns: 85px 85px;
+    grid-template-rows: 165px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 85px 85px;
+    grid-template-rows: 165px;
+  }
+  .descriptchar2 {
+    font-size: 10px;
+  }
+  .descriptchar {
+    font-size: 10px;
+  }
+  .text-on-image {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:473px) {
+  .grid3 { 
+    grid-template-columns: 75px 75px;
+    grid-template-rows: 150px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 75px 75px;
+    grid-template-rows: 150px;
+  }
+  .descriptchar2 {
+    font-size: 10px;
+  }
+  .descriptchar {
+    font-size: 10px;
+  }
+  .text-on-image {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width:409px) {
+  .grid3 { 
+    grid-template-columns: 70px 70px;
+    grid-template-rows: 145px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 70px 70px;
+    grid-template-rows: 145px;
+  }
+  .descriptchar2 {
+    font-size: 8px;
+  }
+  .descriptchar {
+    font-size: 8px;
+  }
+  .text-on-image {
+    font-size: 9px;
   }
 }
 
