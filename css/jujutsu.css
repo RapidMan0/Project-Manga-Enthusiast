@@ -109,6 +109,11 @@ a {
   color: white;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
+.introduction2 {
+  color: white;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  margin-top: 30px;
+}
 
 .intromegasuper {
   font-size: 50px;
@@ -405,18 +410,12 @@ a {
   .descriptchar {
     font-size: 10px;
   }
-  .text-on-image {
-    font-size: 13px;
-  }
 }
 
 @media screen and (max-width:699px) {
   .grid3 { 
     grid-template-columns: 125px 100px;
     grid-template-rows: 165px;
-  }
-  .text-on-image {
-    font-size: 15px;
   }
   .grid2 {
     display: grid;
@@ -438,9 +437,6 @@ a {
     grid-template-columns: 110px 90px;
     grid-template-rows: 165px;
   }
-  .text-on-image {
-    font-size: 15px;
-  }
   .grid2 {
     display: grid;
     grid-template-columns: 110px 90px;
@@ -461,9 +457,6 @@ a {
     grid-template-columns: 90px 90px;
     grid-template-rows: 165px;
   }
-  .text-on-image {
-    font-size: 15px;
-  }
   .grid2 {
     display: grid;
     grid-template-columns: 90px 90px;
@@ -483,9 +476,6 @@ a {
   .grid3 { 
     grid-template-columns: 85px 85px;
     grid-template-rows: 165px;
-  }
-  .text-on-image {
-    font-size: 15px;
   }
   .grid2 {
     display: grid;
@@ -526,13 +516,10 @@ a {
   }
 }
 
-@media screen and (max-width:409px) {
+@media screen and (max-width:414px) {
   .grid3 { 
     grid-template-columns: 70px 70px;
     grid-template-rows: 145px;
-  }
-  .text-on-image {
-    font-size: 15px;
   }
   .grid2 {
     display: grid;
@@ -546,10 +533,29 @@ a {
     font-size: 8px;
   }
   .text-on-image {
-    font-size: 9px;
+    font-size: 5px;
   }
 }
-
+@media screen and (max-width:401px) {
+  .grid3 { 
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 145px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 145px;
+  }
+  .descriptchar2 {
+    font-size: 8px;
+  }
+  .descriptchar {
+    font-size: 8px;
+  }
+  .text-on-image {
+    font-size: 7px;
+  }
+}
 
 @media screen and (max-width:480px) {
   .fff {
