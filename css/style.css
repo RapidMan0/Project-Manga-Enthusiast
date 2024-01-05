@@ -164,7 +164,6 @@ a:hover {
   justify-content: space-around;
   flex-wrap: wrap;
   border-radius: 5px;
-  
 }
 
 .photo1 {
@@ -172,6 +171,7 @@ a:hover {
   height: 475px;
   border-radius: 15px;
   transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 10px 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .photo1:hover {
