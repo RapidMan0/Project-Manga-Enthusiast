@@ -93,6 +93,10 @@
 .manga-item {
     text-align: center;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.manga-item:hover {
+  transform: scale(1.05);
 }
 
 img {
@@ -109,6 +113,17 @@ h2 {
     line-height: normal;
     text-transform: capitalize;
     text-shadow: 0px 2px 1px #8e00ff;
+    font-family: "Inter-Black", Helvetica;
+}
+.avtor {
+  color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
     font-family: "Inter-Black", Helvetica;
 }
 .popular {

@@ -1,0 +1,16 @@
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+body {
+    background-color: #F3EDC8 !important;
+  }
+.layout {
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+
+}
