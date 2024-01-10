@@ -3052,7 +3052,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #0d6efd;
+  --bs-btn-bg: #BF3131;
   --bs-btn-border-color: #0d6efd;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0b5ed7;
@@ -3458,7 +3458,7 @@ textarea.form-control-lg {
   color: var(--bs-dropdown-color);
   text-align: left;
   list-style: none;
-  background-color: var(--bs-dropdown-bg);
+  background-color: #F3EDC8;
   background-clip: padding-box;
   border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
   border-radius: var(--bs-dropdown-border-radius);
@@ -4435,7 +4435,8 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-  color: var(--bs-card-color);
+  background-color: #EAD196;
+
 }
 
 .card-title {
@@ -6205,7 +6206,6 @@ textarea.form-control-lg {
 
 .carousel-caption {
   position: absolute;
-  display: flex;
   right: 15%;
   bottom: 1.25rem;
   left: 15%;
