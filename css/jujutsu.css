@@ -432,6 +432,12 @@ a {
     font-size: 10px;
   }
 }
+@media screen and (max-width:640px) {
+  .name {
+    display: none;
+  }
+}
+
 @media screen and (max-width:631px) {
   .grid3 { 
     grid-template-columns: 110px 90px;
@@ -514,6 +520,24 @@ a {
   .text-on-image {
     font-size: 9px;
   }
+  .caption {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:445px) {
+  .about {
+    font-size: 10px;
+  }
+  .about1 {
+    font-size: 10px;
+  }
+}
+}
+
+@media screen and (max-width:435px) {
+  .intromegasuper {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width:414px) {
@@ -555,26 +579,32 @@ a {
   .text-on-image {
     font-size: 7px;
   }
+  .caption {
+    font-size: 18px;
+  }
+  .grid {
+    column-gap: 10px;
+  }
 }
 
-@media screen and (max-width:480px) {
-  .fff {
-    font-size: 15px;
+@media screen and (max-width:325px) {
+  .grid3 { 
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 145px;
   }
-  .caption {
-    font-size: 20px;
+  .grid2 {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 145px;
   }
-  .about {
-    font-size: 10px;
+  .descriptchar2 {
+    font-size: 5px;
   }
-  .about1 {
-    font-size: 10px;
+  .descriptchar {
+    font-size: 5px;
   }
-  .name {
-    font-size: 35px;
+  .text-on-image {
+    font-size: 5px;
   }
-  .img_header {
-    width: 80px;
-    height: 80px;
-  }
+
 }
