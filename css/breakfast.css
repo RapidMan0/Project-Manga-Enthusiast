@@ -5,6 +5,30 @@ body {
 .d {
     width: 100%;
 }
-.kartinka {
-
+h1 {
+    font-size: 50px;
+    font-weight: 900;
 }
+.img_sec {
+    background: url(../img/eda-raznoe-yabloko-apelsin-kofe-sok-krua-1323094.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-top: 10px;
+    padding: 20px 20px 45px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  .img_text {
+    max-width: 360px;
+    color: white;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: "Inter ", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 0px 4px 1px #000000;
+  }
