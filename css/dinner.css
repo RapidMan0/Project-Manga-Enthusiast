@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+      background-color: #F3EDC8 !important;
+    }
+  
+  .d {
+      width: 100%;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    text-align: center;
+  }
+  .img_sec {
+      background: url(../img/imgpreview.jpg);
+      background-repeat: none;
+      background-size: cover;
+      background-position: center;
+      height: 800px;
+      padding-left: 20px;
+      padding-right: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .img_text {
+      width: 100%;
+      font-size: 30px;
+      font-weight: 700;
+      color: #ffffff;
+      text-shadow: 1px 1px 10px rgb(0, 0, 0);
+      text-align: center;
+    }
+    .catalog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,320px);
+      margin-top: 50px;
+      justify-items: center;
+      justify-content: center;
+      column-gap: 35px;
+      row-gap: 50px;
+  }
+  .card {
+    transition: 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.03);
+  }  
+  
