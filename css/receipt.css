@@ -27,8 +27,11 @@ body {
     justify-content: center;
     gap: 65px;
     flex-wrap: wrap;
-
 }
+.card:hover {
+    transform: scale(1.03);
+  }  
+
 
 .explore1 {
     margin: auto;
@@ -40,29 +43,39 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.chilat {
+.chi {
     max-width: 162px;
     max-height: 200px;
     text-align: center;
     font-size: 15px;
     font-weight: 500;
+    transition: 0.3s ease;
 }
-.chilat2 {
+.chi:hover {
+    transform: scale(1.03);
+  
+  }
+.chi2 {
     max-width: 162px;
     max-height: 162px;
     border-radius: 100%;
 }
-.chilat3 {
+.chi3 {
     max-width: 900px;
     max-height: 207px;
 }
-.chilat5 {
+.chi5 {
     max-width: 280px;
     max-height: 291px;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
+    transition: 0.3s ease;
+    
 }
+.chi5:hover {
+    transform: scale(1.03);
+  }
 .margin {
     margin-top: 5px;
 }
@@ -100,4 +113,7 @@ body {
     height: 40px;
     font-size: 25px;
     border: none;
+}
+.card {
+    transition: 0.3s ease;
 }
