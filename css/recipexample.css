@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3edc8 !important;
+}
+.recipe-container {
+  background-color: red;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  
+}
+.wrapper {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    background-color: wheat;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pancake {
+    max-width: 55%;
+    height: auto;
+}

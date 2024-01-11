@@ -89,9 +89,10 @@ body {
 .border {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .pho {
-    max-width: 800px;
+    max-width: 100%;
 }
 .capt {
     background-color: white;
