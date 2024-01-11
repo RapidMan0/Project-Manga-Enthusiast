@@ -50,6 +50,7 @@ body {
     font-size: 15px;
     font-weight: 500;
     transition: 0.3s ease;
+    margin-bottom: 20px;
 }
 .chi:hover {
     transform: scale(1.03);
