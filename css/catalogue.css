@@ -38,7 +38,6 @@
   }
   .nav_bar {
     display: flex;
-    margin-left: 400px;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     transition: color 0.5s ease-out 100ms;
   }

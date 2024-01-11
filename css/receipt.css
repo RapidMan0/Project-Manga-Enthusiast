@@ -1,4 +1,8 @@
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
 
 h1 {
     font-size: 50px;
@@ -27,7 +31,7 @@ body {
 }
 
 .explore1 {
-    margin: 0 auto;
+    margin: auto;
     max-width: 1295px;
     padding: 20px 20px;
     background-color: 
@@ -64,7 +68,7 @@ body {
     margin-top: 5px;
 }
 .block {
-    margin: 0 auto;
+    margin: auto;
     max-width: 1295px;
     padding-left: 36px;
     padding-right: 36px;
@@ -84,7 +88,7 @@ body {
     gap: 16px;
 }
 .input {
-    width: 800px;
+    width: 50%;
     border-radius: 40px;
     height: 48px;
     font-size: 20px;
@@ -93,7 +97,7 @@ body {
 .search {
     margin-top: 30px;
     background-color: #f5ce35;
-    width: 280px;
+    width: 10%;
     height: 40px;
     font-size: 25px;
     border: none;
